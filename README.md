@@ -18,4 +18,4 @@ Add to your .vimrc:
 
 `'{}'` is a holderplace that replesents current filename. 
 
-For example, if you are in 'example/example.py', press "<leader>t", then jumper.vim looks up filetype and opens `"test/test_example.py"` by defined rules.
+For example, if you are in 'example/example.py', press "\<leader\>t", then jumper.vim looks up filetype and opens `"test/test_example.py"` by defined rules.
