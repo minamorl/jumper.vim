@@ -1,9 +1,7 @@
 let s:save_cpo = &cpo
 set cpo&vim
 
-let s:prefix_test = "/tests/test_"
-
-function! jumper#jumptotest()
+function! jumper#jump()
   " To resolve relative path collectly, 'lcd' command must be called before jumping.
   let l:_ = getcwd()
 
