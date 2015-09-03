@@ -10,11 +10,11 @@ Add to your .vimrc:
 
 ## Example
 
-    autocmd vimrc FileType python nnoremap <buffer> <silent> <leader>t :call jumper#jump()<cr>
 
     let g:jumper_popup_style = "vsplit"
     let g:jumper_config = {}
     let g:jumper_config.python = "../tests/test_{}"
+    nnoremap <silent> <leader>t :call jumper#jump()<cr>
 
 `'{}'` is a holderplace that replesents current filename. 
 
