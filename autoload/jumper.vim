@@ -5,7 +5,7 @@ function! jumper#jump()
   " To resolve relative path collectly, 'lcd' command must be called before jumping.
   let l:_ = getcwd()
 
-  let l:current_folder = expand('%:h')
+  let l:current_folder = expand('%:p:h')
   execute "lcd" l:current_folder
 
   let l:dest = jumper#determine_dest()
